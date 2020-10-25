@@ -1,0 +1,53 @@
+form.pal{
+    background-color: rgb(238, 178, 168);
+    text-align: center;
+    width: 1000px;
+    margin:auto;
+    height: 1000px;
+    
+}
+header{
+    text-align: center;
+    font-size-adjust: 1.5;
+    color: white;
+}
+body{
+    background-color: rgb(73, 86, 138);
+    
+}
+legend{
+    text-align: left;
+}
+fieldset{
+    margin: 15px 10px 10px 10px;
+    height: 970px;
+    border-color: blue ;
+}
+#color{
+    color:white;
+    background-color:darkblue;
+    height: 50px;
+    width:105px
+}
+.options{
+    text-align: left;
+    display: inline-block;
+    width: 45%;
+}
+#content{
+    text-align:end;
+    vertical-align: top;
+    display:inline-block;
+    width: 50%;
+}
+
+
+#comment{
+color: rgb(13, 11, 129);
+font-size: 13px;
+
+}
+
+   
+    
+   
