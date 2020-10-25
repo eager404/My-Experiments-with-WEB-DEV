@@ -1,0 +1,249 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="./Assignmentstyling.css ">
+
+</head>
+<body>
+    
+    <header>Survey Form</header>
+   <div id="start"> <form class="pal">
+        <fieldset class="Fieldset-auto-width"> <legend>Let us know how we can improve freeCodeCamp </legend>
+      <label id="name">*Name:</label>  <input id="nam" type="text" name="NAME" placeholder="ENTER YOUR NAME">
+        <br>
+        <br>
+        <br>
+        <label>*Email:</label>  <input id="mail" type="email" placeholder="ENTER YOUR EMAIL">
+        <br>
+        <br>
+        <br>
+        <label>*Age:</label>  <input id="AgE" type="text" placeholder="AGE">
+        <br>
+        <br>
+        <br>
+        <label >Which option best describes
+             your current role? </label> <select id="current">
+            
+            <option value="Student">STUDENT  </option>
+            <option value="Teacher">TEACHER  </option>
+            <option value="Scientist">SCIENTIST </option>
+        </select>
+        <br>
+        <br>
+        <br>
+
+        <label id>*How likely is that you would recommend
+            freeCodeCamp to a friend
+        </label> <div id="choose"> <input  type="radio" value="Definitely"><label>Definitely</label> <br>
+         <input id="maybe" type="radio" value="maybe"><label>Maybe</label> <br> 
+        <input type="radio" value="Not sure"><label>Not sure</label> </div>
+        <br>
+        <br>
+        <br>
+        <label>What do you like most in FCC</label>
+       <select>
+           <option aria-placeholder="Select an option">Select an option</option>
+            <option value= "PYTHON">PYTHON</option>
+            <option value= "MACHINE LEARNING">MACHINE LEARNING</option>
+            <option value= "JAVA">JAVA</option> 
+               </select>
+               <br>
+               <br>
+
+               <label>Things that should be improved in the future
+                   (check all that apply)
+               </label>
+     
+              <div id="optn"><input type="checkbox" value="Front-End projects" > <label>Front-end projects </label>
+               <br>
+               <input type="checkbox" value="Back-end projects" > <label>Back-end projects</label>
+               <br>
+               <input type="checkbox" value="Data visualization">  <label>Challenges</label>
+               <br>
+               <input type="checkbox" value="Open Source Community" > <label>Open Source Community</label><br>
+
+               <input type="checkbox" value="Gitter help rooms" > <label>Gitter Help rooms</label><br>
+               <input type="checkbox" value="Videos">  <label> Videos</label><br>
+<input type="checkbox" value="City Meetups" >
+<label>City Meetups</label>
+<br>
+<input type="checkbox" value="Wiki">
+ <label>Wiki</label> <br>
+<input type="checkbox" value="Forum" >
+<label>Forum</label> <br>
+<input type="checkbox" value="Additional Courses" >
+<label>Additional courses</label><br> <br></div>
+<label><span> Comments or Suggestions?
+ <textarea  cols="40" rows="3" placeholder="Enter.."> </textarea> </span> </label>
+<br>
+<input id="color" type="submit">
+        </fieldset>
+    </form>
+   </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./finalstyling.css">
+</head>
+
+<body>
+        <header>Survey Form</header>
+        <form class="pal">
+        <fieldset class="Fieldset-auto-width"> <legend>Let us know how we can improve freeCodeCamp </legend>
+            
+        <div>
+        <div id="content">
+        <label for="name">Name:</label>
+        </div>
+        <div class="options">
+        <div>
+        <input id="name" type="text" placeholder="Enter your name">
+        </div>
+        </div>       
+        </div>
+        <br>
+        <br>
+        <div>
+        <div id="content">
+        <label for="email">Email:</label>
+        </div>
+        <div class="options">
+        <div>
+        <input id="email" type="email" placeholder="Enter your Email">
+        </div>
+        </div>       
+        </div>
+        <br>
+        <br>
+        <div>
+        <div id="content">
+        <label>Age:</label>     
+        </div>
+        <div class="options">
+        <div>
+        <input type="number" placeholder="Age">
+        </div>
+        </div>       
+        </div>
+        <br>
+        <br>
+        <div>
+        <div id="content"> 
+        <label>Which option best describes your current role?</label>
+        </div>
+        <div class="options">
+        <div>
+        <select name="student" >
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Developer</option>    
+        </select>
+        </div>
+        </div>            
+        </div>
+        <br>
+        <br>
+        <div>
+        <div id="content">
+        <label for="recommend"><span>How likely you would recommend freeCodeCamp to a friend?</span> </label>
+        </div>
+        <div class="options">
+        <div>
+        <input id="recommend" name="recommned" type="radio" ><span><strong>Definitely</strong></span><br>  
+        </div>
+        <div><input id="recommend" name="recommned" type="radio" ><span><strong>Maybe</strong></span><br>
+        </div>
+        <div>
+        <input id="recommend" name="recommned" type="radio" ><span><strong>Not sure</strong></span>
+        </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div>
+        <div id="content">
+        <label>What do you like most in FCC:</label>
+        </div>
+        <div class="options">
+        <div>
+        <select name="student" >
+        <option>Select an option</option>
+        <option>Coding</option>
+        <option>Web Development</option>
+        <option>App Development</option>                   
+        </select>
+        </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div>
+        <div id="content">
+        <label>Things that should be improved in the future (Check all that apply):</label>
+        </div>
+        <div class="options">
+        <div>
+        
+        <input type="checkbox"><strong>Front-end Projects</strong></label><br>
+        </div>
+        <div>
+        <input type="checkbox"><strong>Back-end Projects</strong></label><br>
+        </div>
+        <div>
+        <input type="checkbox"><strong>Data Visualization</strong></label><br>
+        </div>
+        <div> 
+        <input type="checkbox"><strong> Challenges</strong></label><br>
+        </div>
+        <div> 
+        <input type="checkbox"><strong>Open Source Community</strong></label><br>
+        </div>
+        <div>    
+        <input type="checkbox"><strong>Glitter help rooms</strong></label><br></div>
+        <div>
+        <input type="checkbox"><strong>Videos</strong></label><br>
+        </div>
+        <div>
+        <input type="checkbox"><strong>City Meetups</strong></label><br>
+        </div>
+        <div>
+        <input type="checkbox"><strong> Wiki</strong></label><br>
+        </div>
+        <div>
+        <input type="checkbox"><strong> Forum</strong></label><br>
+        </div>
+        <div>
+        <input type="checkbox"><strong> Additional Courses</strong></label><br>
+        </div>                        
+        </div>
+        </div>
+        <div>
+        <br>
+        <br>
+        <br>   
+        <div id="content">
+        <label>Comments or Suggestions?</label>
+        </div>
+        <div class="options">
+        <div>
+        <textarea id="comment" rows="3" cols="40" placeholder="Enter your comment here.."></textarea>
+        </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <input id="color" type="submit">
+        </fieldset>
+        </form>   
+        </body>
+        </html>
